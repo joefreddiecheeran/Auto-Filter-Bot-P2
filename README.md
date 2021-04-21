@@ -103,4 +103,4 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ## Credits
 
- - Thanks To [L Lawliet](https://t.me/alphantime) For His Awesome [Libary](https://github.com/pyrogram/pyrogram)
+ - Thanks To [L Lawliet](https://t.me/alphantime) For His Awesome [Library](https://github.com/pyrogram/pyrogram)
