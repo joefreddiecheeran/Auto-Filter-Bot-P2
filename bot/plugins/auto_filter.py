@@ -103,7 +103,7 @@ async def auto_filter (bot, update):
         len_results = len(results)
         results = None # Free Up Memory
         
-        Find[query] = {"results": result, "total_len": len_results, "max_pages": maxp} # TrojanzHex's Idea Of Dicts😅
+        Find[query] = {"results": result, "total_len": len_results, "max_pages": maxp} # L Lawliet's Idea Of Dicts😅
 
         if len_result >maxb:
             result[0].append([InlineKeyboardButton("Next ⏩", callback_data=f"navigate(0|next|{query})")])
