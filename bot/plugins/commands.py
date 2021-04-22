@@ -11,7 +11,7 @@ async def start(bot, update):
     
     buttons = [[
         InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/alphantime'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://images.app.goo.gl/M2n97JzQ83US8iik7')
+        InlineKeyboardButton('Source Code 🧾', url ='https://images.app.goo.gl/kfxLkFvb58MkUz3dA')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/alphantimebotsupport')
     ],[
