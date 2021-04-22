@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) @alphantime
+# (c) @AlbertEinsteinTG
 
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>I Am Just An Advanced Auto Filter Bot....😉
+<i>Am Just A Advance Auto Filter Bot....😉
 
 Just Add Me To Your Group And Channel And Connect Them And See My Pevers 🔥🔥😝
 
 For More Details Click Help Button Below..
-Creator - @alphantime
+@alphantime
 </i>"""    
     
     HELP_TEXT = """
@@ -43,7 +43,7 @@ Creator - @alphantime
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@alphantimebotsupport
+@alphantime
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
@@ -54,5 +54,5 @@ Creator - @alphantime
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Source Code</b> : <i><a href="https://images.app.goo.gl/M2n97JzQ83US8iik7">Click Here</a></i>
+<b>➥ Source Code</b> : <i><a href="https://images.app.goo.gl/kfxLkFvb58MkUz3dA">Click Me</a></i>
 """
