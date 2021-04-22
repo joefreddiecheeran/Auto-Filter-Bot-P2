@@ -539,7 +539,7 @@ async def callback_data(bot, update: CallbackQuery):
         remove_active = await db.del_active(chat_id, int(c_id))
         
         if not remove_active:
-            await update.message.edit_text("Couldnt Full Fill YOur Request...\n Report This to @alphantime Along With Bot's Log")
+            await update.message.edit_text("Couldnt Full Fill YOur Request...\n Report This @alphantimebotsupport Along With Bot's Log")
             return
         
         text= f"<i>Sucessfully Disconnected From</i> <code>{c_name}</code>\n"
@@ -1311,7 +1311,7 @@ async def callback_data(bot, update: CallbackQuery):
         text=f"<i><u>Bot's Status</u></i>\n"
         text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
         text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-        text+=f"""\n<b><i>Bot Support:</i></b> <a herf="https://t.me/alphantimebotsupport">@alphantime</a>\n"""
+        text+=f"""\n<b><i>Bot Support:</i></b> <a herf="https://t.me/alphantimebotsupport">@alphantimebotsupport</a>\n"""
         text+="""\n<b><i>Source Code:</i></b> <a herf="https://images.app.goo.gl/kfxLkFvb58MkUz3dA">Source</a>"""
 
         buttons = [
